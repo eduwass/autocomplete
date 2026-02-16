@@ -2,6 +2,10 @@
 [![Badge: Documentation](https://img.shields.io/badge/documentation-black)](https://fig.io/docs/)
 [![Badge: contributors](https://img.shields.io/github/contributors/withfig/autocomplete)](#Contributors)
 
+> **Note (eduwass fork):** My custom specs (`claude`, `linear`, `wt`, `task-master`, `@wordpress/create-block`) have been moved to my [dotfiles repo](https://github.com/eduwass/dotfiles) under `kiro-autocomplete/`. This fork is no longer actively maintained — new specs are authored there and loaded into Kiro via symlink. The modifications I made to upstream specs (`wp.ts`, `node.ts`, `npx.ts`) still live here.
+
+---
+
 **[Amazon Q Developer in the command line](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html)
 adds IDE-style completions for hundreds of popular CLIs like `git`, `npm`,
 `docker`, and `aws`. Start typing, and Amazon Q populates contextually relevant
